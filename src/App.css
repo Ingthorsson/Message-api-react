@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
 
 * {
     margin: 0;
@@ -24,7 +24,7 @@ html {
 
 h1.page-title {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 800;
     width: fit-content;
     margin: 1.5rem auto;
     text-align: center;
@@ -44,7 +44,7 @@ form {
     box-shadow: 0 0 0.9rem #D3d3d3;
 }
 
-form [type="submit"] {
+button {
     background: #006797;
     color: #fff;
     font-size: 1.5rem;
@@ -56,14 +56,17 @@ form [type="submit"] {
     transition: all 0.3s ease-in-out;
 }
 
-form [type="submit"]:hover {
+button:hover {
     background-color: rgb(247, 247, 247);
     color: #006797;
     box-shadow: 0 0 0.6rem rgb(75, 75, 75);
 }
 
 form [type="text"] {
-    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:black;
+    font-size: 1.6rem;
     width: 100%;
     padding: 0.9rem 1.8rem;
     border: none;
@@ -72,7 +75,6 @@ form [type="text"] {
     margin: 0 1rem 1rem 0;
     transition: all 0.3s ease-in-out;
 }
-
 
 /* MESSAGES */
 .msg-container {
@@ -83,26 +85,6 @@ form [type="text"] {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.msg-container a {
-    background: #006797;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0.1rem 0.6rem;
-    border: none;
-    outline: 1px #006797 solid;
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-    background-color: rgb(247, 247, 247);
-    color: #006797;
-    box-shadow: 0 0 0.6rem rgb(75, 75, 75);
 }
 
 #messages {

@@ -41,6 +41,7 @@ export function CartProvider({ children }) {
         });
     }
 
+
     return (
         <CartContext.Provider value={{ messages, getMessages, deleteMessage }}>
             {children}

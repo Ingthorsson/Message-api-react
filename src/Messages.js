@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import Message from "./Message";
 import { CartContext } from "./CartContext";
-import { useContext } from "react";
 
 function Messages() {
 
