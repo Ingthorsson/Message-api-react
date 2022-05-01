@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Message from "./Message";
-import { MessageContext } from "./MessageContext";
+import { MessageContext } from "../MessageContext";
 
 function Messages() {
 

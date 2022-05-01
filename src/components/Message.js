@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MessageContext } from "./MessageContext";
+import { MessageContext } from "../MessageContext";
 
 function Message({ messageId, name, email, message }) {
 

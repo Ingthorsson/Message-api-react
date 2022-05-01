@@ -1,6 +1,6 @@
 import './App.css';
-import Messages from "./Messages";
-import MessageForm from "./MessageForm";
+import Messages from "./components/Messages";
+import MessageForm from "./components/MessageForm";
 import { MessageProvider } from "./MessageContext";
 
 

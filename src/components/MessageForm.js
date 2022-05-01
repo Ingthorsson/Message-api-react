@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { MessageContext } from "./MessageContext";
+import { MessageContext } from "../MessageContext";
 
 
 function MessageForm() {
