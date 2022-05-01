@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { CartContext } from "./CartContext";
+import { MessageContext } from "./MessageContext";
 
 function Message({ messageId, name, email, message }) {
 
-    const {deleteMessage} = useContext(CartContext);
+    const {deleteMessage} = useContext(MessageContext);
 
     return (
         <>

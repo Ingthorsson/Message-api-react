@@ -1,7 +1,7 @@
 import './App.css';
 import Messages from "./Messages";
 import MessageForm from "./MessageForm";
-import { CartProvider } from "./CartContext";
+import { MessageProvider } from "./MessageContext";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
 
     <div className="container">
-      <CartProvider >
+      <MessageProvider >
         <div className="main">
           <h1 className="page-title">Messages</h1>
           <MessageForm />
@@ -22,7 +22,7 @@ function App() {
           </section>
 
         </div>
-      </CartProvider>
+      </MessageProvider>
     </div>
 
   );

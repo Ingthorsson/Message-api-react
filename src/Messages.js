@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import Message from "./Message";
-import { CartContext } from "./CartContext";
+import { MessageContext } from "./MessageContext";
 
 function Messages() {
 
-    const { messages } = useContext(CartContext);
+    const { messages } = useContext(MessageContext);
 
     return (
         <>

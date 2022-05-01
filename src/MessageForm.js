@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { CartContext } from "./CartContext";
+import { MessageContext } from "./MessageContext";
 
 
 function MessageForm() {
@@ -43,7 +43,7 @@ function MessageForm() {
         }
     };
 
-    const { getMessages } = useContext(CartContext);
+    const { getMessages } = useContext(MessageContext);
 
     return (
         <>

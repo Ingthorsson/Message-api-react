@@ -1,8 +1,8 @@
 import { createContext, useEffect, useState } from "react";
 
-export const CartContext = createContext();
+export const MessageContext = createContext();
 
-export function CartProvider({ children }) {
+export function MessageProvider({ children }) {
 
     const [messages, setMessages] = useState([]);
 
@@ -43,8 +43,8 @@ export function CartProvider({ children }) {
 
 
     return (
-        <CartContext.Provider value={{ messages, getMessages, deleteMessage }}>
+        <MessageContext.Provider value={{ messages, getMessages, deleteMessage }}>
             {children}
-        </CartContext.Provider>
+        </MessageContext.Provider>
     );
 }
