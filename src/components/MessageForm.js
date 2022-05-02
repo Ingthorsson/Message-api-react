@@ -52,7 +52,7 @@ function MessageForm() {
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="Enter Name"
+                    placeholder="Name"
                     onChange={onChangeName}
                     value={name} />
 
@@ -60,7 +60,7 @@ function MessageForm() {
                     type="text"
                     id="email"
                     name="email"
-                    placeholder="Enter Email Address"
+                    placeholder="Email Address"
                     onChange={onChangeEmail}
                     value={email} />
 
