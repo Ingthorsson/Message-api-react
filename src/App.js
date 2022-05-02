@@ -2,6 +2,7 @@ import './App.css';
 import Messages from "./components/Messages";
 import MessageForm from "./components/MessageForm";
 import { MessageProvider } from "./MessageContext";
+import {Helmet} from "react-helmet";
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
   return (
 
     <div className="container">
+      <Helmet>
+        <title>Messages API</title>
+    </Helmet>
       <MessageProvider >
         <div className="main">
           <h1 className="page-title">Messages</h1>
